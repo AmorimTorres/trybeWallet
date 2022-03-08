@@ -1,8 +1,7 @@
 export const SUBMIT_LOGIN_DATA = 'SUBMIT_LOGIN_DATA';
 
-const loginData = (payload) => ({
-  type: SUBMIT_LOGIN_DATA,
-  payload,
-});
+export const SUBMIT_EXPENSES_DATA = 'SUBMIT_EXPENSES_DATA';
 
-export default loginData;
+export const REQUEST_API = 'REQUEST_API';
+export const GET_API_SUCCESS = 'REQUEST_API_SUCCESS';
+export const GET_API_ERROR = 'REQUEST_API_ERROR';
